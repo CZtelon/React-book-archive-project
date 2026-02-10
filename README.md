@@ -4,6 +4,8 @@ This is my final React project for HackerU's Fullstack course. The goal of the p
 
 The project was designed, implemented, and tested by me, with modern development tools used where appropriate.
 
+[Live Demo](https://react-book-archive-project.vercel.app)
+
 ## ✨ Project Requirements & Features
 
 The following features were defined in the project brief and implemented as part of the assignment:
