@@ -12,7 +12,7 @@ const BookCard = ({ book, onDelete, onEdit, onToggleFavorite }) => {
       {/* Image */}
       <div className="h-64 w-full bg-gray-100 flex items-center justify-center mb-4">
         <img
-         src={coverImage || 'https://via.placeholder.com/300x400?text=No+Cover'}
+         src={coverImage || 'hhttps://picsum.photos/seed/picsum/300/400'}
          alt={title}
          className="h-full w-full object-contain"
         />
