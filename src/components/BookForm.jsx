@@ -1,6 +1,11 @@
 import { Modal, Button, Label, TextInput, Textarea } from 'flowbite-react';
 import { useState, useEffect } from 'react';
 
+const getRandomCover = () => {
+  const seed = Math.floor(Math.random() * 10000);
+  return `https://picsum.photos/seed/${seed}/400/600`;
+};
+
 const BookForm = ({ isOpen, onClose, onSubmit, initialData }) => {
   // Determine if we're in "Edit" or "Add" mode
   const isEditMode = initialData && initialData.id;
@@ -33,7 +38,7 @@ const BookForm = ({ isOpen, onClose, onSubmit, initialData }) => {
         title: '',
         author: '',
         description: '',
-        coverImage: '',
+        coverImage: getRandomCover(),
         isFavorite: false,
       });
     }
